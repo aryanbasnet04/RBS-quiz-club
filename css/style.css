@@ -1,0 +1,343 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Inter', sans-serif;
+  
+}
+html{
+  font-size: 10px;
+}
+ .main-li{
+  list-style: none;
+  border-right: 2px solid black;
+  padding-right: 0.8rem;
+  border-left: 2px solid white;
+}
+/* .a-targeted{
+  color: red;
+} */
+.main-li-home{
+  border-left:2px solid black ;
+  padding-left: 0.8rem;
+}
+.header{
+  /* background-color: #fdf2e9; */
+  height: rem;
+  background-image: url('https://img.freepik.com/free-vector/white-abstract-wallpaper_23-2148830026.jpg?w=360');
+}
+.main-ul{
+  display: flex;
+  gap: 2.4rem;
+  justify-content: flex-end;
+  margin-left: 30.4rem;
+
+}
+.main-a{
+text-decoration: none;
+font-size: 2rem;
+color: #000;
+}
+.main-a:hover{
+  color: #fc2f2f;
+  border-bottom: 2px solid red;
+}
+.rbs-name{
+  font-family: 'Monotype Corsiva';
+    font-size: 4.8rem;
+    color: #fc2f2f;
+    line-height: 9rem;
+    margin-left: 2rem;
+    font-weight: 500;
+}
+.container-header{
+  display: flex;
+  align-items: center;
+  gap: 8.4rem; 
+  border-bottom: 2px solid #fc2f2f;
+}
+.container-1{
+  display: flex;
+}
+main{
+background-image: url("rbs.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 64rem;
+}
+.h1-slogan{
+  color: #ffffff;
+  justify-content: center;
+  display: flex;
+  /* margin-top: 0.2rem; */
+  padding-top: 28.4rem;
+  font-size: 6.4rem;
+  margin-right: 5.4rem;
+  margin-bottom: 8.4rem;
+}
+.learn_more{
+  display: inline-block;
+  margin-left: 60rem;
+  font-size: 2.4rem;
+  padding: 1.6rem 2.4rem;
+  color: #ffffff;
+  border: #000;
+  background-color: #de0d0d;
+  cursor: pointer;
+  border-radius: 9px;
+}
+.learn_more-btn{
+  color: #ffffff;
+  text-decoration: none;
+}
+.learn_more:hover{
+  background-color: #b81616;
+}
+.section-title{
+  color: #fc2f2f;
+}
+.section-1{
+  width: 50%;
+  font-size: 1.6rem;
+  background-color: #fdf2e9;
+  margin-top: 2.4rem;
+}
+.p-mission{
+  margin-left: 7.4rem;
+}
+.section-2{
+  margin-top: 2.4rem;
+  width: 50%;
+  font-size: 1.6rem;
+  padding: 1.6rem 2.4rem;
+  background-color: #fdf2e9;
+}
+.section{
+  width: 80%;
+  margin: 0 auto;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 8.4rem;
+  background-image: url('https://www.ratobangala.edu.np/web/image/2045/0-02-03-ae92e18401ab88b75d403c441ddcbbc0992a46214c1f39c249029ea642ce931d_8a7e084.jpg');
+}
+.container-1-president{
+  background-color: #fc2f2f;
+  height: 28rem;
+  width: 75%;
+  display: flex;
+  font-size: 2rem;
+  gap: 2.4rem;
+  border-radius: 9px;
+  margin-left: 4.4rem;
+  color: #fff;
+  margin-top: 10rem;
+}
+.img-president{
+  height: 24rem;
+  width: 35rem;
+  border-radius: 9px;
+  
+  /* width: 80%; */
+}
+.image-vice-president{
+  height: 24rem;
+  width: 186%;
+  /* margin-right: 8rem; */
+  display: inline-block;
+  padding-right: 20.5rem;
+  border-radius: 9px;
+}
+.container-vice-president{
+  height: 28rem;
+  display: flex;
+  width: 75%;
+  border-radius: 9px;
+  background-color: #fc2f2f;
+  float: right;
+  margin-left: 26.4rem;
+  color: #fff;
+}
+.border-line{
+ border: 2px solid #fc2f2f;
+}
+.our-team{
+  font-size: 2.8rem;
+  text-align: center;
+  color: #fc2f2f;
+  /* border-bottom: 2px solid #fc2f2f; */
+  display: block;
+}
+.container-text{
+  font-size: 1.6rem;
+  display: flex;
+  margin-top: 2.4rem;
+}
+
+.about{
+  background-image:url("http://2.bp.blogspot.com/-xwpmiyZq-30/Talt720edkI/AAAAAAAAGds/QRrnvANPoEw/s1600/banner.jpg") ;
+  background-repeat: no-repeat;
+  background-size: 140rem 700px;
+  height: 100rem;
+}
+.container-box{
+  /* margin-top: 24rem; */
+  height: 24rem;
+  background-color: #fc2f2f;
+}
+.text-position{
+  font-size: 1.6rem;
+  font-weight: 500;
+  width: 24rem;
+}
+.vice-president-text{
+  width:98%;
+  margin-left: 1.8rem;
+}
+.footer{
+  background-color: #fc2f2f;
+  text-align: center;
+  color: #fff;
+  height: 4rem;
+  display: flex;
+  padding-left: 62rem;
+  align-items: center;
+}
+.main-footer{
+  background-color: #fc2f2f;
+  height: 11rem;
+}
+/* .footer-about{
+  margin-top: 2.4rem;
+} */
+.container-footer{
+  display: flex;
+  gap: 10.6rem;
+  justify-content: center;
+}
+.social{
+  height: 6rem;
+  width: 6rem;
+}
+.insta:hover{
+  width: 7rem;
+  height: 7rem;
+}
+.facebook:hover{
+  width: 7rem;
+  height: 7rem;
+}
+.gmail:hover{
+  width: 7rem;
+  height: 7rem;
+}
+.discord:hover{
+  width: 7rem;
+  height: 7rem;
+}
+.footer-main{
+  margin-top: 2.4rem;
+}
+.img-rbs{
+  border-radius: 9px;
+}
+.a-about{
+  color: #fc2f2f;
+  font-size: 2.4rem;
+  display: inline-block;
+  margin-bottom: 3.4rem;
+}
+.rbs-info{
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+.container-about{
+  display: flex;
+  gap: 18.2rem;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 2.4rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdf2e9;
+  border-radius: 9px;
+  padding: 1.8rem 2.6rem;
+}
+.about-box{
+  width: 70%;
+}
+.brief-history-container{
+  background-image: url('https://www.ratobangala.edu.np/web/image/2083/img%20%2810%29.png');
+  height: 60rem;
+  /* display: flex; */
+  flex-direction: row;
+}
+.brief-history{
+  color: #fc2f2f;
+  font-size: 3.4rem;
+  text-align: center;
+  margin-top: 3.4rem;
+}
+.p-text-history{
+  font-size: 1.6rem;
+  line-height: 1.8;
+  width: 60%;
+  margin: 0 auto;
+}
+.history-container{
+  margin-top: 2.4rem;
+}
+.photo-section{
+  background-color: #fdf2e9;
+gap: 2.4rem;
+display: flex;
+flex-wrap: wrap;
+width: 71%;
+margin: 0 auto;
+}
+.img-gallery{
+  height: 24rem;
+  width: 30rem; 
+  border-radius: 9px;
+}
+.img-gallery:hover{
+  transform: scale(1.1);
+}
+.footer-about{
+  margin-top: 2.4rem;
+}
+.h1-activities{
+  font-family: 'Monotype Corsiva';
+  font-size: 6.8rem;
+  color: #fc2f2f;
+  line-height: 9rem;
+}
+.h1-activity{
+  /* padding: 1.2rem 2.4rem; */
+
+}
+.container-main-activities{
+  background-color:#fdf2e9 ;
+  height: 44rem;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 5.4rem; */
+  border: 2px solid #000000;
+  border-radius: 19px;
+  padding: 1.8rem 2.4rem;
+  /* position: relative; */
+  background-image: url('https://www.ratobangala.edu.np/web/image/2083/img%20%2810%29.png');
+}
+.section-activities{
+  background-image: url('https://www.ratobangala.edu.np/web/image/2045/0-02-03-ae92e18401ab88b75d403c441ddcbbc0992a46214c1f39c249029ea642ce931d_8a7e084.jpg');
+  height: 64rem;
+  display: flex;
+  align-items: center;
+  align-items: center;
+}
